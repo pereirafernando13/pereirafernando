@@ -1,0 +1,30 @@
+{
+  "name": "pereirafernando",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "homepage": "https://github.com/pereirafernando13/pereirafernando#readme",
+  "bugs": {
+    "url": "https://github.com/pereirafernando13/pereirafernando/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pereirafernando13/pereirafernando.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "^16.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.8"
+  }
+}
